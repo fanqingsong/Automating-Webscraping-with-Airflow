@@ -1,0 +1,8 @@
+lxml
+python-decouple
+apache-airflow-providers-apache-spark
+apache-airflow-providers-docker
+requests
+pandas
+beautifulsoup4
+

@@ -1,6 +1,6 @@
 ## Web Scraping with Airflow
 
-This README provides step-by-step instructions on setting up and running a web scraping project using Apache Airflow. The project involves scraping data from aan ecommerce site(tonaton.com) using Airflow's scheduling capabilities. Below are the key steps to set up and run the project.
+This project provides step-by-step instructions on setting up and running a web scraping project using Apache Airflow. The project involves scraping data from aan ecommerce site(tonaton.com) using Airflow's scheduling capabilities. Below are the key steps to set up and run the project.
 
 ### Step 1: Build the Airflow Docker Image
 

@@ -1,7 +1,5 @@
 import logging
-import re
 import time
-import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from .utils import save_to_csv_s3

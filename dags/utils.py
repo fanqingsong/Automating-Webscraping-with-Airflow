@@ -48,7 +48,7 @@ def row_exists_in_csv(s3_client, bucket_name, s3_file_path, event_url):
         return False
 
 
-def save_to_csv_s3(s3_file_path, event_details, exclude_columns=None):
+def save_csv_s3(s3_file_path, event_details, exclude_columns=None):
     try:
         bucket_name = "uvent-bucket"
         s3_client = boto3.client("s3", **asdict(get_aws()))

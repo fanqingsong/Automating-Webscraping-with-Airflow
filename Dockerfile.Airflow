@@ -1,4 +1,4 @@
-FROM apache/airflow:latest 
+FROM swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/apache/airflow:2.2.5
 USER root
 
 # Install OpenJDK-11
